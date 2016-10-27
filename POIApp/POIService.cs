@@ -59,7 +59,7 @@ namespace POIApp
             return actuallyConnected;
         }
 
-        //convert all json keys into lowercase. Make sure this code is always at the bottom
+        //convert all json keys into lowercase. Make sure this code is always at the bottom :)
         public class POIContractResolver:DefaultContractResolver
         {
             protected override string ResolvePropertyName(string key)
